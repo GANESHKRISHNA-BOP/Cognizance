@@ -1,0 +1,18 @@
+Start
+Input: Index of the term n
+Output: nth fibonacci number
+a=0
+b=1
+If n==1
+	return a
+If n==2
+	return b
+count=2
+t=0
+Repeat until count<n
+t=a+b
+a=b
+b=t
+count=count+1
+return t
+End

@@ -1,0 +1,16 @@
+Function Main
+    Declare Integer num, divisor, remainder
+    
+    Output "Enter the number: "
+    Input num
+    Assign divisor = 3
+    While num>=divisor
+        Assign num = num-divisor
+    End
+    Assign remainder = num
+    If remainder==0
+        Output "The number is divisible by 3"
+    False:
+        Output "The number is not divisible by 3"
+    End
+End
